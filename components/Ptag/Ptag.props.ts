@@ -1,11 +1,10 @@
 import { ButtonHTMLAttributes, DetailedHTMLProps, ReactNode } from 'react'
 
-export interface ButtonProps
+export interface PtagProps
   extends DetailedHTMLProps<
     ButtonHTMLAttributes<HTMLButtonElement>,
     HTMLButtonElement
   > {
   children: ReactNode
-  appearance: 'primary' | 'ghost'
-  arrow?: 'right' | 'down' | 'none'
+  size: 's' | 'm' | 'l'
 }
