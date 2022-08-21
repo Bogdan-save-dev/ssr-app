@@ -1,4 +1,4 @@
-import { Htag, Button, Tag, Ptag } from '../components'
+import { Htag, Button, Tag, Ptag, Rating } from '../components'
 
 export default function Home(): JSX.Element {
   return (
@@ -15,6 +15,7 @@ export default function Home(): JSX.Element {
         tenetur voluptate minima.
       </Ptag>
       <Tag color="green">Tag</Tag>
+      <Rating rating={3} />
     </div>
   )
 }
