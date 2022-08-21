@@ -3,7 +3,7 @@ import cn from 'classnames'
 import styles from './Ptag.module.css'
 import { PtagProps } from './Ptag.props'
 
-const Ptag = ({
+export const Ptag = ({
   size = 'm',
   children,
   className,
@@ -22,5 +22,3 @@ const Ptag = ({
     </p>
   )
 }
-
-export default Ptag
